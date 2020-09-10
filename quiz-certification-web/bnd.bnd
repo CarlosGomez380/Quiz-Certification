@@ -1,0 +1,4 @@
+Bundle-Name: quiz-certification-web
+Bundle-SymbolicName: com.vass.di.quiz.certification.web
+Bundle-Version: 1.0.0
+Export-Package: com.vass.di.quiz.certification.web.constants

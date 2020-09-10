@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.vass.di.quiz.certification.data.model.answer">
+		<field name="answerId" type="long" />
+		<field name="questionId" type="long" />
+		<field name="answer" type="String">
+			<hint name="max-length">500</hint>
+		</field>
+		<field name="correct" type="boolean" />
+	</model>
+	<model name="com.vass.di.quiz.certification.data.model.question">
+		<field name="questionId" type="long" />
+		<field name="question" type="String">
+			<hint name="max-length">500</hint>
+		</field>
+		<field name="category" type="String" />
+	</model>
+	<model name="com.vass.di.quiz.certification.data.model.responseUser">
+		<field name="uuid" type="String" />
+		<field name="responseUserId" type="long" />
+		<field name="userId" type="long" />
+		<field name="questionId" type="long" />
+		<field name="answerId" type="long" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+	</model>
+</model-hints>

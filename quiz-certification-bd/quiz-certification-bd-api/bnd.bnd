@@ -1,0 +1,10 @@
+Bundle-Name: quiz-certification-bd-api
+Bundle-SymbolicName: com.vass.di.quiz.certification.data.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.vass.di.quiz.certification.data.exception,\
+	com.vass.di.quiz.certification.data.model,\
+	com.vass.di.quiz.certification.data.service,\
+	com.vass.di.quiz.certification.data.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../quiz-certification-bd-service/service.xml
